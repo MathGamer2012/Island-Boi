@@ -12,9 +12,17 @@ namespace Island_Boi
 {
     public partial class Form1 : Form
     {
+        public static Form1 inst;
         public Form1()
         {
             InitializeComponent();
+            inst = this;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmLibMain form = new frmLibMain();
+            form.Show();
         }
     }
 }
