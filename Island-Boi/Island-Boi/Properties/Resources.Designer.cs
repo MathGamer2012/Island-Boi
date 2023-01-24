@@ -63,6 +63,16 @@ namespace Island_Boi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1200px_Magnifying_glass_icon_svg {
+            get {
+                object obj = ResourceManager.GetObject("1200px-Magnifying_glass_icon.svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BookCheckoutSymbol {
             get {
                 object obj = ResourceManager.GetObject("BookCheckoutSymbol", resourceCulture);
@@ -196,6 +206,46 @@ namespace Island_Boi.Properties {
         internal static System.Drawing.Bitmap logo_transparent {
             get {
                 object obj = ResourceManager.GetObject("logo_transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Magnifyingiconv1 {
+            get {
+                object obj = ResourceManager.GetObject("Magnifyingiconv1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Magnifyingiconv2 {
+            get {
+                object obj = ResourceManager.GetObject("Magnifyingiconv2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Magnifyingiconv3 {
+            get {
+                object obj = ResourceManager.GetObject("Magnifyingiconv3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Magnifyingiconv3white {
+            get {
+                object obj = ResourceManager.GetObject("Magnifyingiconv3white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

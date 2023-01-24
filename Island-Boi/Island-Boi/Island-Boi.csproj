@@ -52,6 +52,42 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmBookDonate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBookDonate.Designer.cs">
+      <DependentUpon>frmBookDonate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBookCheckList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBookCheckList.Designer.cs">
+      <DependentUpon>frmBookCheckList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBookHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBookHistory.Designer.cs">
+      <DependentUpon>frmBookHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBookHold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBookHold.Designer.cs">
+      <DependentUpon>frmBookHold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBookList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBookList.Designer.cs">
+      <DependentUpon>frmBookList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBookReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBookReview.Designer.cs">
+      <DependentUpon>frmBookReview.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLibMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +99,24 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBookCheckList.resx">
+      <DependentUpon>frmBookCheckList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBookDonate.resx">
+      <DependentUpon>frmBookDonate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBookHistory.resx">
+      <DependentUpon>frmBookHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBookHold.resx">
+      <DependentUpon>frmBookHold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBookList.resx">
+      <DependentUpon>frmBookList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBookReview.resx">
+      <DependentUpon>frmBookReview.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLibMain.resx">
       <DependentUpon>frmLibMain.cs</DependentUpon>
@@ -143,6 +197,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BookVaultOfficialLogoV2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Magnifying_glass_icon.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magnifyingiconv1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magnifyingiconv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magnifyingiconv3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magnifyingiconv3white.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
