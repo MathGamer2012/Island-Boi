@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Island_Boi.Forms
 {
-    public partial class frmBookHold : Form
+    public partial class frmBookReturn : Form
     {
-        public frmBookHold()
+        public frmBookReturn()
         {
             InitializeComponent();
         }

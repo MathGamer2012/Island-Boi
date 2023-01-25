@@ -118,73 +118,127 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Magnifyingiconv3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Magnifyingiconv3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sasafafafasf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sasafafafasf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BookVaultOfficialLogoV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BookVaultOfficialLogoV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Magnifyingiconv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Magnifyingiconv1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sasafafafasfcvm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sasafafafasfcvm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="output-onlinepngtools (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\output-onlinepngtools (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Untitledbelike" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitledbelike.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Company logo Culm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Company logo Culm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BookListSymboltransparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BookListSymboltransparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ghjhkjhgjfyujhgkj" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ghjhkjhgjfyujhgkj.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bruvvvvv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bruvvvvv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BookHoldSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BookHoldSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BookReviewSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BookReviewSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1200px-Magnifying_glass_icon.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1200px-Magnifying_glass_icon.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BookHistSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BookHistSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BookCheckoutSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BookCheckoutSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BookListSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BookListSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SlowFireCoverv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlowFireCoverv2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BookDonateSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BookDonateSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Untitledbelike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitledbelike.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SailCoverv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SailCoverv2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BookListSymboltransparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BookListSymboltransparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sasafafafasfcvm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sasafafafasfcvm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sendv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sendv1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Magnifyingiconv3white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Magnifyingiconv3white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BookVaultOfficialLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BookVaultOfficialLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Darktowncover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Darktowncover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Magnifyingiconv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Magnifyingiconv1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NomadCover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NomadCover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-Magnifying_glass_icon.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1200px-Magnifying_glass_icon.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="27276220._SY475_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27276220._SY475_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BookHoldSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BookHoldSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightningMenCover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightningMenCover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghjhkjhgjfyujhgkj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghjhkjhgjfyujhgkj.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LiesCover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LiesCover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Magnifyingiconv3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Magnifyingiconv3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Company logo Culm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Company logo Culm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheDilemmaCoverv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheDilemmaCoverv2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9780735211292" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9780735211292.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Magnifyingiconv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Magnifyingiconv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atomichabitscover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\atomichabitscover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SailCover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SailCover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BookReviewSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BookReviewSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sendv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sendv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bruvvvvv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bruvvvvv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="51TYAMkpUgL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51TYAMkpUgL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PleaseSeeUsCover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PleaseSeeUsCover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Company logo Culmv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Company logo Culmv2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BookHistSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BookHistSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BookVaultOfficialLogoV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BookVaultOfficialLogoV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Magnifyingiconv3white" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Magnifyingiconv3white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BookListSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BookListSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="output-onlinepngtools (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\output-onlinepngtools (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sasafafafasf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sasafafafasf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BookDonateSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BookDonateSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Profile-PNG-File" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profile-PNG-File.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BookVaultOfficialLogoV21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BookVaultOfficialLogoV21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

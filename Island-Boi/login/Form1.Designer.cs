@@ -1,6 +1,6 @@
-﻿namespace Island_Boi.Forms
+﻿namespace login
 {
-    partial class frmBookHold
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,32 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panelBackHold = new System.Windows.Forms.Panel();
-            this.SuspendLayout();
-            // 
-            // panelBackHold
-            // 
-            this.panelBackHold.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panelBackHold.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBackHold.Location = new System.Drawing.Point(0, 0);
-            this.panelBackHold.Name = "panelBackHold";
-            this.panelBackHold.Size = new System.Drawing.Size(800, 450);
-            this.panelBackHold.TabIndex = 0;
-            // 
-            // frmBookHold
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panelBackHold);
-            this.Name = "frmBookHold";
-            this.Text = "BOOK HOLD";
-            this.ResumeLayout(false);
-
+            this.Text = "Form1";
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panelBackHold;
     }
 }
+

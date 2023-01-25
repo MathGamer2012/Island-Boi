@@ -111,7 +111,7 @@ namespace Island_Boi
 
         private void btnBookHold_Click(object sender, EventArgs e)
         {
-            subFormEntry(new Forms.frmBookHold(), sender);
+            subFormEntry(new Forms.frmBookReturn(), sender);
         }
 
         private void btnBookDonate_Click(object sender, EventArgs e)
@@ -190,7 +190,7 @@ namespace Island_Boi
 
             if (txtSearchBar.Text == "book hold")
             {
-                subFormEntry(new Forms.frmBookHold(), sender);
+                subFormEntry(new Forms.frmBookReturn(), sender);
             }
 
             if (txtSearchBar.Text == "book donate")

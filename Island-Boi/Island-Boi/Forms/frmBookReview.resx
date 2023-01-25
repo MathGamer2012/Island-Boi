@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblInfo.Text" xml:space="preserve">
+    <value>In order to review books there are certain conditions that must be met. Firstly, you can only review books that have previously been checked out.
+The rating scale system is out of 10 and can be updated multiple times. In the"Book List" section the average of all rating submissions of that
+desired book will be present. This can help with book recommendations for new readers.
+</value>
+  </data>
 </root>

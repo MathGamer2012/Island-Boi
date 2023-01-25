@@ -33,8 +33,26 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Reactive, Version=5.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reactive.5.0.0\lib\netstandard2.0\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,13 +62,19 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="zxing, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net461\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.8.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.8\lib\net461\zxing.presentation.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmBookDonate.cs">
       <SubType>Form</SubType>
@@ -70,11 +94,11 @@
     <Compile Include="Forms\frmBookHistory.Designer.cs">
       <DependentUpon>frmBookHistory.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmBookHold.cs">
+    <Compile Include="Forms\frmBookReturn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmBookHold.Designer.cs">
-      <DependentUpon>frmBookHold.cs</DependentUpon>
+    <Compile Include="Forms\frmBookReturn.Designer.cs">
+      <DependentUpon>frmBookReturn.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmBookList.cs">
       <SubType>Form</SubType>
@@ -97,8 +121,8 @@
     <Compile Include="MainColour.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmBookCheckList.resx">
       <DependentUpon>frmBookCheckList.cs</DependentUpon>
@@ -109,8 +133,8 @@
     <EmbeddedResource Include="Forms\frmBookHistory.resx">
       <DependentUpon>frmBookHistory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmBookHold.resx">
-      <DependentUpon>frmBookHold.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmBookReturn.resx">
+      <DependentUpon>frmBookReturn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmBookList.resx">
       <DependentUpon>frmBookList.cs</DependentUpon>
@@ -131,6 +155,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -212,6 +237,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Magnifyingiconv3white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sendv1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sendv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9780735211292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atomichabitscover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51TYAMkpUgL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27276220._SY475_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Darktowncover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LiesCover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LightningMenCover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NomadCover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PleaseSeeUsCover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SailCover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SailCoverv2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlowFireCoverv2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheDilemmaCoverv2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile-PNG-File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BookVaultOfficialLogoV21.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
